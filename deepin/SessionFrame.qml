@@ -8,7 +8,7 @@ Item {
 
     readonly property int m_viewMaxWidth: frame.width - prevSession.width - nextSession.width - 230;
     property bool shouldShowBG: false
-    property var sessionTypeList: ["deepin", "enlightenment", "fluxbox", "gnome", "kde", "lxde", "ubuntu"]
+    property var sessionTypeList: ["awesome", "deepin", "enlightenment", "fluxbox", "gnome", "i3", "kde", "lxde", "ubuntu"]
     property alias currentItem: sessionList.currentItem
 
     function getIconName(sessionName) {

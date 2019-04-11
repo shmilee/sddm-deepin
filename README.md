@@ -21,6 +21,8 @@ You should run the command below before install to test if all dependents was in
 
 ## Modify
 
-1. `deepin/icons/{login_normal.png,login_press.png}`
-    from https://github.com/sylveon/sddm-deep
+1. deepin/icons/{`login_normal.png`,`login_press.png`}
+   from https://github.com/sylveon/sddm-deep
 
+2. add session icons for `awesome`, `i3`
+   from https://github.com/fralonra/sddm-chinese-painting-theme

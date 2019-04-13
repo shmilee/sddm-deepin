@@ -7,7 +7,7 @@ SDDM is a Login Manager for Linux which can be themed by qml. This theme use the
 ![screenshot_users](https://cloud.githubusercontent.com/assets/5242852/14402164/65677f28-fdf1-11e5-8604-1f54b6dc8450.png)
 
 ## Install
-1. `$git clone https://github.com/Match-Yang/sddm-deepin.git`
+1. `$git clone https://github.com/shmilee/sddm-theme-deepin.git
 
 2. `$cd sddm-deepin`
 
@@ -26,3 +26,5 @@ You should run the command below before install to test if all dependents was in
 
 2. add session icons for `awesome`, `i3`
    from https://github.com/fralonra/sddm-chinese-painting-theme
+
+3. For arch user, use PKGBUILD to `makepkg`.

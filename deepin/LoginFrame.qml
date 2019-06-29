@@ -13,6 +13,8 @@ Item {
     Connections {
         target: sddm
         onLoginSucceeded: {
+            passwdInput.color = "steelblue"
+            passwdInput.text = textConstants.loginSucceeded
             glowAnimation.running = false
             Qt.quit()
         }
